@@ -1,0 +1,53 @@
+t=2025-04-14T16:01:54-0300 lvl=info msg="no configuration paths supplied"
+t=2025-04-14T16:01:54-0300 lvl=info msg="using configuration at default config path" path=/home/adriano/.config/ngrok/ngrok.yml
+t=2025-04-14T16:01:54-0300 lvl=info msg="open config file" path=/home/adriano/.config/ngrok/ngrok.yml err=nil
+t=2025-04-14T16:01:54-0300 lvl=info msg="starting web service" obj=web addr=127.0.0.1:4040 allow_hosts=[]
+t=2025-04-14T16:01:55-0300 lvl=info msg="client session established" obj=tunnels.session
+t=2025-04-14T16:01:55-0300 lvl=info msg="tunnel session started" obj=tunnels.session
+t=2025-04-14T16:01:55-0300 lvl=info msg="started tunnel" obj=tunnels name=command_line addr=http://localhost:8081 url=https://d10b-2001-12b4-4ef-5500-1238-a58d-a27a-7701.ngrok-free.app
+t=2025-04-14T16:01:55-0300 lvl=info msg="update available" obj=updater
+t=2025-04-14T16:02:02-0300 lvl=info msg=start pg=/api/tunnels id=6522782a3191a72f
+t=2025-04-14T16:02:02-0300 lvl=info msg=end pg=/api/tunnels id=6522782a3191a72f status=200 dur=3.775535ms
+t=2025-04-14T16:02:08-0300 lvl=info msg="join connections" obj=join id=d044e6417d3f l=127.0.0.1:8081 r=[2001:12b4:4ef:5500:1238:a58d:a27a:7701]:51346
+t=2025-04-14T16:02:34-0300 lvl=info msg="join connections" obj=join id=fbe9c8ceb01f l=127.0.0.1:8081 r=189.36.234.144:4168
+t=2025-04-14T16:08:10-0300 lvl=warn msg="failed to open private leg" id=83604e7d95ee privaddr=localhost:8081 err="dial tcp 127.0.0.1:8081: connect: connection refused"
+t=2025-04-14T16:08:10-0300 lvl=warn msg="failed to open private leg" id=96e79ce027af privaddr=localhost:8081 err="dial tcp 127.0.0.1:8081: connect: connection refused"
+t=2025-04-14T16:08:20-0300 lvl=warn msg="failed to open private leg" id=59a94794f8b4 privaddr=localhost:8081 err="dial tcp 127.0.0.1:8081: connect: connection refused"
+t=2025-04-14T16:08:21-0300 lvl=warn msg="failed to open private leg" id=e2b50a2f483d privaddr=localhost:8081 err="dial tcp 127.0.0.1:8081: connect: connection refused"
+t=2025-04-14T16:09:07-0300 lvl=warn msg="failed to open private leg" id=de55376bb1bc privaddr=localhost:8081 err="dial tcp 127.0.0.1:8081: connect: connection refused"
+t=2025-04-14T16:09:08-0300 lvl=warn msg="failed to open private leg" id=4985a46b14e2 privaddr=localhost:8081 err="dial tcp 127.0.0.1:8081: connect: connection refused"
+t=2025-04-14T16:09:44-0300 lvl=warn msg="failed to open private leg" id=e6d8190c1193 privaddr=localhost:8081 err="dial tcp 127.0.0.1:8081: connect: connection refused"
+t=2025-04-14T16:09:45-0300 lvl=warn msg="failed to open private leg" id=865593cf0964 privaddr=localhost:8081 err="dial tcp 127.0.0.1:8081: connect: connection refused"
+t=2025-04-14T16:09:49-0300 lvl=warn msg="failed to open private leg" id=e76ad456e96c privaddr=localhost:8081 err="dial tcp 127.0.0.1:8081: connect: connection refused"
+t=2025-04-14T16:09:50-0300 lvl=warn msg="failed to open private leg" id=c75b7372e343 privaddr=localhost:8081 err="dial tcp 127.0.0.1:8081: connect: connection refused"
+t=2025-04-14T16:10:12-0300 lvl=info msg="join connections" obj=join id=3ae2fe157f41 l=127.0.0.1:8081 r=[2001:12b4:4ef:5500:1238:a58d:a27a:7701]:36396
+t=2025-04-14T16:10:24-0300 lvl=info msg="join connections" obj=join id=3cc17d46d924 l=127.0.0.1:8081 r=[2001:12b4:4ef:5500:1238:a58d:a27a:7701]:36396
+t=2025-04-14T16:10:42-0300 lvl=info msg="join connections" obj=join id=28fd12491bff l=127.0.0.1:8081 r=[2001:1284:f514:b78b:f849:92e:5a9f:4e36]:54554
+t=2025-04-14T16:10:50-0300 lvl=info msg="join connections" obj=join id=00102e113c42 l=127.0.0.1:8081 r=[2001:1284:f514:b78b:f849:92e:5a9f:4e36]:54554
+t=2025-04-14T16:10:53-0300 lvl=info msg="join connections" obj=join id=ea623ad15c2c l=127.0.0.1:8081 r=[2001:1284:f514:b78b:f849:92e:5a9f:4e36]:54580
+t=2025-04-14T16:11:08-0300 lvl=info msg="join connections" obj=join id=0156c6e16638 l=127.0.0.1:8081 r=[2001:1284:f514:b78b:f849:92e:5a9f:4e36]:54592
+t=2025-04-14T16:11:12-0300 lvl=info msg="join connections" obj=join id=fe58fc242518 l=127.0.0.1:8081 r=[2001:1284:f514:b78b:f849:92e:5a9f:4e36]:54597
+t=2025-04-14T16:11:34-0300 lvl=info msg="join connections" obj=join id=61a2d1ea0170 l=127.0.0.1:8081 r=[2001:1284:f514:b78b:f849:92e:5a9f:4e36]:54610
+t=2025-04-14T16:11:43-0300 lvl=info msg="join connections" obj=join id=233e98bb65c7 l=127.0.0.1:8081 r=[2001:1284:f514:b78b:f849:92e:5a9f:4e36]:54621
+t=2025-04-14T16:12:04-0300 lvl=info msg="join connections" obj=join id=ec28a2f14813 l=127.0.0.1:8081 r=[2001:1284:f514:b78b:f849:92e:5a9f:4e36]:54632
+t=2025-04-14T16:15:26-0300 lvl=info msg="join connections" obj=join id=beb7ead0375e l=127.0.0.1:8081 r=[2001:12b4:4ef:5500:1238:a58d:a27a:7701]:60760
+t=2025-04-14T17:22:38-0300 lvl=info msg="join connections" obj=join id=793d88283522 l=127.0.0.1:8081 r=[2001:12b4:4ef:5500:a8a9:98d5:1869:8374]:39386
+t=2025-04-14T17:23:25-0300 lvl=info msg="join connections" obj=join id=a2155e56e155 l=127.0.0.1:8081 r=[2001:12b4:4ef:5500:a8a9:98d5:1869:8374]:39386
+t=2025-04-14T17:23:36-0300 lvl=info msg="join connections" obj=join id=d566337d0fbd l=127.0.0.1:8081 r=[2001:12b4:4ef:5500:a8a9:98d5:1869:8374]:39386
+t=2025-04-14T17:23:42-0300 lvl=info msg="join connections" obj=join id=f96ebaeb1c8b l=127.0.0.1:8081 r=[2001:12b4:4ef:5500:a8a9:98d5:1869:8374]:39386
+t=2025-04-14T17:47:49-0300 lvl=info msg="join connections" obj=join id=83034a42114b l=127.0.0.1:8081 r=[2001:12b4:4ef:5500:a8a9:98d5:1869:8374]:47660
+t=2025-04-14T17:48:01-0300 lvl=info msg="join connections" obj=join id=3e39a126dcbc l=127.0.0.1:8081 r=[2001:12b4:4ef:5500:a8a9:98d5:1869:8374]:47660
+t=2025-04-14T17:48:09-0300 lvl=info msg="join connections" obj=join id=63dc90ce834d l=127.0.0.1:8081 r=[2001:12b4:4ef:5500:a8a9:98d5:1869:8374]:47660
+t=2025-04-14T17:51:17-0300 lvl=info msg="join connections" obj=join id=804b3e4e9423 l=127.0.0.1:8081 r=[2001:12b4:4ef:5500:a8a9:98d5:1869:8374]:45908
+t=2025-04-14T18:17:51-0300 lvl=info msg="join connections" obj=join id=68aed6ad57fd l=127.0.0.1:8081 r=189.98.109.59:52488
+t=2025-04-14T18:18:37-0300 lvl=info msg="join connections" obj=join id=7a7565aaa52e l=127.0.0.1:8081 r=189.98.109.59:52488
+t=2025-04-14T18:18:43-0300 lvl=info msg="join connections" obj=join id=44ae7c5d642d l=127.0.0.1:8081 r=189.98.109.59:52488
+t=2025-04-14T18:18:49-0300 lvl=info msg="join connections" obj=join id=3c2ebf8f2cb3 l=127.0.0.1:8081 r=189.98.109.59:52488
+t=2025-04-14T18:19:17-0300 lvl=info msg="join connections" obj=join id=c83460e5200a l=127.0.0.1:8081 r=189.98.109.59:52488
+t=2025-04-14T18:19:39-0300 lvl=info msg="join connections" obj=join id=b80ff14113e9 l=127.0.0.1:8081 r=189.98.109.59:52488
+t=2025-04-14T18:20:30-0300 lvl=info msg="join connections" obj=join id=01ec116a9ab5 l=127.0.0.1:8081 r=189.98.109.59:52488
+t=2025-04-14T18:25:25-0300 lvl=info msg="join connections" obj=join id=534c122a9070 l=127.0.0.1:8081 r=189.98.109.59:52488
+t=2025-04-14T18:26:18-0300 lvl=info msg="join connections" obj=join id=1012e192103e l=127.0.0.1:8081 r=189.98.109.59:52488
+t=2025-04-14T18:27:33-0300 lvl=info msg="join connections" obj=join id=30573cc90301 l=127.0.0.1:8081 r=189.98.109.59:52488
+t=2025-04-14T18:27:42-0300 lvl=info msg="join connections" obj=join id=e82afaf37045 l=127.0.0.1:8081 r=189.98.109.59:52488
+t=2025-04-14T18:28:04-0300 lvl=info msg="join connections" obj=join id=06cf2a02ffc6 l=127.0.0.1:8081 r=189.98.109.59:52488
